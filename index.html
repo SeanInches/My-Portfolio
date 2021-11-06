@@ -4,27 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Sean Inches</title>
-    <link rel="stylereset" href="assets\reset.css">
     <link rel="stylesheet" href="assets\styles.css">
 </head>
 
 <body>
     <header>
-        <div class="headernav">
-        <h1>Sean Inches Portfolio</h1>
+        <div class="headernav"> 
+        <h1>Sean Inches Portfolio</h1> 
+        <img src="assets/profile.jpg" class="profile" />
         <nav>
             <ul>
-                <li class="navbar">
-                    <a href="#About Me">About Me</a>
+                <li>
+                    <a href="#about-me">About Me</a>
                 </li>
-                <li class="navbar">
-                    <a href="#My Work">My Work</a>
+                <li>
+                    <a href="#my-work">My Work</a>
                 </li>
-                <li class="navbar">
-                    <a href="#Contact Me">Contact Me</a>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
-                <li class="navbar">
-                    <a href="#Resume">Resume</a>
+                <li>
+                    <a href="#resume">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -32,9 +32,9 @@
         </header>
     </header>
     <main>
-        <div class="container">
+        <section id="about-me">
+            <h2 class="section-title">About Me</h2>
             <article>
-                <h2>About Me</h2>
                 <p>
                     I have been working as an Advanced EMT for the past 5 years now. The medical field is always something that has
                     intrigued me and I have learned a great deal throughout my endeavors, however, I am ready for a change of pace
@@ -44,30 +44,55 @@
                 </p>
             </article>
 
-        </div>
-        <div class="mywork">
-            <h3>My work so far</h3>
-            <section>
-                <h4><a href="https://seaninches.github.io/Website-Optimization/">Website Optimization</a></h4>
-            </section>
-        </div>
-        <div class="otherwork">
-            <h3>Other Projects</h3>
-            <section>
-                <h4>Place Holder</h4>
-                <img src="https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg" alt="img" class="placeholder">
-            </section>
-            <section>
-                <h4>Place Holder</h4>
-                <img src="https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg" alt="img" class="placeholder">
-            </section>
-        </div>
+        </section>
+        <section id="my-work">
+            <h2 class="section-title">My work so far</h2>
+            <article>
+                <div class="row">
+                    <a href="https://seaninches.github.io/Website-Optimization/">
+                    <div class="main-work work-1" style="background-color:#aaa;">
+                      <h2>Most Recent Work</h2>
+                      <p>Website-Optimization</p>
+                    </div>
+                    </a>
+                    <a>
+                    <div class="other-work work-2" style="background-color:#bbb;">
+                      <h2>Upcoming Projects</h2>
+                      <p>Stay Tuned</p>
+                    </div>
+                    </a>
+                    <a>
+                    <div class="other-work work-3" style="background-color:#ccc;">
+                      <h2>Upcoming Projects</h2>
+                      <p>Stay Tuned</p>
+                    </div>
+                    </a>
+                  </div>
+            </article>
+        </section>
 
-        <div class="contactme">
-            <h3 id="contactme">Contact Me</h3>
-            <p>Email <a href="mailto: seanminches@gmail.com"></a>
-                
-            </p>
-        </div>
+        <section id="contact-me">
+            <h2 class="section-title">Contact Me</h2>
+            <article>
+                <p> <a href="mailto:seanminches@gmail.com">Email</a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/sean-inches-461263222/">Linkedin</a>
+                </p>
+                <p>
+                    <a href="https://github.com/SeanInches">Github</a>
+                </p>
+            </article>
+        </section>
+
+        <section id="resume">
+            <a href="google.com"><h2>Resume</h2></a>
+        </section>
+
+
+        <footer>
+            <h4>Sean Inches</h4>
+            <p>Copyright 2021</p>
+        </footer>
     </main>
 </body>

@@ -1,10 +1,107 @@
-header{
-    
-}
-.headernav{
-    color: aquamarine;
-    font-family: fantasy;
-    background: url(https://i.ytimg.com/vi/L0Bp074tuYI/maxresdefault.jpg);
-}
+html {
+    scroll-behavior: smooth;
+  }
 
+nav ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
 
+  body {
+      position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/82/e9/d7/82e9d7dc5531a8aeabce54ddc61e6b79.jpg");
+      display: block;
+  }
+
+  main {
+      text-align: center;
+  }
+
+  section, footer, header {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5%;
+    opacity: .9;
+  }
+
+  img.profile {
+      max-width: 300px;
+      border-radius: 50%;
+      width: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .main-work {
+    color: black;
+    margin: 5px;
+    background-repeat: none;
+    background-position: center;
+    float: left;
+    width: 48%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .other-work {
+    color:black;
+    margin: 5px;
+    background-repeat: none;
+    background-position: center;
+    float: left;
+    width: 24%;
+    padding: 10px;
+    height: 300px; 
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .work-1 {
+    background-image: url("https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg");
+  }
+  .work-2 {
+    background-image: url("https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg");
+  }
+  
+  .work-3 {
+    background-image: url("https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg");
+  }
+
+  @media screen and (max-width: 600px) {
+    .main-work, .other-work {
+      width: 100%;
+    }
+  }
