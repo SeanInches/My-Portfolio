@@ -1,0 +1,12 @@
+header{
+    background: url(https://i.ytimg.com/vi/L0Bp074tuYI/maxresdefault.jpg);
+}
+header h1{
+    color: aquamarine;
+    font-family: fantasy;
+}
+.navbar{
+    display: inline-flex;
+    float: right;
+}
+
